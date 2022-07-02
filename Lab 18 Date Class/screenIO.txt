@@ -1,0 +1,170 @@
+******************************************************
+*  PROGRAMMED BY : Demon & Fireduck
+*  CLASS         : CS1B
+*  SECTION       : T/Th 8am
+*  LAB #18       : Date Class
+******************************************************
+
+**************************************
+* WELCOME TO THE ANIMAL LIST MANAGER *
+**************************************
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 2
+The day is:   29
+The Month is: 4
+The Year is:  2015
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 6
+04/29/2015
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 3
+The day is: 29
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 4
+The Month is: 4
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 5
+The Year is: 2015
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 1
+What day is it? 33
+
+**** The number 33 is an invalid entry      ****
+**** Please input a number between 1 and 31 ****
+What day is it? 13
+What month is it? 14
+
+**** The number 14 is an invalid entry      ****
+**** Please input a number between 1 and 12 ****
+What month is it? -1
+
+**** The number -1 is an invalid entry      ****
+**** Please input a number between 1 and 12 ****
+What month is it? 12
+What year is it? 2015
+The Date stamp has been altered
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 6
+04/29/2015
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 1
+What day is it? 13
+What month is it? 1
+What year is it? 1994
+The Date stamp has been altered
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 2
+The day is:   13
+The Month is: 1
+The Year is:  1994
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 3
+The day is: 13
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 4
+The Month is: 1
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 5
+The Year is: 1994
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 6
+01/13/1994
+
+ 1 - Set Date     
+ 2 - Get Date     
+ 3 - Get Day      
+ 4 - Get Month    
+ 5 - Get year     
+ 6 - Display Date 
+ 0 - Exit         
+What is your menu choice? 0

@@ -1,0 +1,41 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo & demon
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+int CheckInp(int choice)
+{
+	bool invalid;
+
+	invalid = true;
+
+	do
+	{
+		cout << "Enter a command? ";
+		cin  >> choice;
+
+		if(!(cin >> choice))
+		{
+			cout << "**** Please input a NUMBER between 0 and 6 ****";
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		    invalid = false;
+		}
+		else if (choice < 0 && choice > 6)
+		{
+			cout << "**** The number " << choice << setw(25) << "is an invalid entry" << "****";
+			cout << "**** Please input a number between 0 and 6 ****";
+
+			invalid = false;
+		}
+
+		cout << endl << endl;
+	}while(invalid);
+
+	return choice;
+}

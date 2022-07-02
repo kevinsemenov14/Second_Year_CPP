@@ -1,0 +1,38 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo &
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+int GetAndCheckInp(int choice)
+{
+	bool invalid;
+
+	invalid = false;
+
+
+
+	do
+	{
+		if(!(cin >> choice))
+		{
+			cout << "\nPlease input an integer (1-3) ";
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		    invalid = true; }
+		else if (choice >= 0 && choice <= 6)
+		{
+			cout << row << " " << col;
+			cout << " what's your play?:";
+
+			invalid = true;
+		}
+	}while(invalid)
+
+
+	return choice;
+}

@@ -1,0 +1,16 @@
+18:16:20 **** Rebuild of configuration Debug for project Assigenment 3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SwitchToken.o "..\\SwitchToken.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Outputinstruct.o "..\\Outputinstruct.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o InitBoard.o "..\\InitBoard.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o GetAndCheckInput.o "..\\GetAndCheckInput.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o printheader.o "..\\printheader.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckWin.o "..\\CheckWin.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayBoard.o "..\\DisplayBoard.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o GetPlayers.o "..\\GetPlayers.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputWinner.o "..\\OutputWinner.cpp" 
+g++ -o "Assigenment 3.exe" printheader.o main.o SwitchToken.o Outputinstruct.o OutputWinner.o InitBoard.o GetPlayers.o GetAndCheckInput.o DisplayBoard.o CheckWin.o 
+
+18:16:39 Build Finished (took 18s.423ms)
+

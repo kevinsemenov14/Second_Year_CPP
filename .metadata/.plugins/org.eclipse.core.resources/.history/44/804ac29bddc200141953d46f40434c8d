@@ -1,0 +1,35 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo &
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+int CheckInp(int choice)
+{
+	bool invalid;
+
+	invalid = false;
+
+	do
+	{
+		if(!(cin >> choice))
+		{
+			cout << "***Error  ***";
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		    invalid = true;
+		}
+		else if (choice < 0 && choice > 6)
+		{
+			cout << "***Error please enter an int between 0-6***";
+
+			invalid = true;
+		}
+	}while(invalid);
+
+	return choice;
+}

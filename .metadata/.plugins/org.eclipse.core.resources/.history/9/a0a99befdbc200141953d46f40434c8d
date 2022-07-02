@@ -1,0 +1,18 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo & demon
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+
+bool IsEmpty(personNode *head)
+{
+	return head == NULL;
+}
+
+
+

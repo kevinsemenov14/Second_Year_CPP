@@ -1,0 +1,133 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo & demon
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+/***********************************************************************
+ * STACKS
+ * _____________________________________________________________________
+ * This program will create two pointers, one to statically allocate
+ * memory, the other to dynamically allocate memory, and will loop through
+ * accepting input to them, and outputting them until the user enters
+ * -999 for the first int pointer
+ * _____________________________________________________________________
+ * INPUT:
+ *  two int pointers:
+ * 		dynamicPoint  : Dynamic pointer for integer values
+ * 		staticPointer : static pointer, shares intVariable's memory
+ *
+ * OUTPUT:
+ * 		The inputs from the users of the two integer inputs
+ ***********************************************************************/
+
+int main()
+{
+	/*******************************************************************
+	 * CONSTANTS
+	 * -----------------------------------------------------------------
+	 * USED FOR CLASS HEADING - ALL WILL BE OUTPUT
+	 * -----------------------------------------------------------------
+	 * PROGRAMMER		: Programmer's Name
+	 * ID				: Programmer's ID
+	 * CLASS			: Student's Course
+	 * SECTION			: Class Days and Times
+	 * ASSIGNMENT_NAME	: Title of the Assignment
+	 * ASSIGNMENT_TYPE  : Either 'L' for Lab or 'A' for Assignment
+	 * ASSIGNMENT_NUM	: Assignment Number (specific to this assignment)
+	 * -----------------------------------------------------------------
+	 * FORMATTING
+	 * -----------------------------------------------------------------
+	 * PROMPT_W			: Width of the prompt for the user
+	 *******************************************************************/
+	const string PROGRAMMER		 = "Deboogaloo & ";
+	const int    ID				 = 0;
+	const string CLASS		     = "CS1B";
+	const string SECTION		 = "TTH - 8am";
+	const string AS_NAME 		 = "Stacks";
+	const char 	 AS_TYPE 		 = 'L';
+	const int	 AS_NUM	 		 = 11;
+
+	const int PROMPT_W  = 14;	// Prompt width
+
+
+	int choice;
+	personNode *head;
+	string name;
+	char gender;
+	unsigned short age;
+
+
+	choice = 6;
+	head = NULL;
+
+
+	// Initialization section
+
+	// PRINT HEADER FUNCTION
+	PrintHeaderOstream(PROGRAMMER,   // IN - programmer name
+					   ID,			 // IN - id number (0 to omit)
+					   CLASS,	  	 // IN - name of the class
+					   SECTION,      // IN - class time
+				       AS_NAME, 	 // IN - assignment Name
+					   AS_TYPE,   	 // IN - assignment type
+					   AS_NUM,		 // IN - assignment number
+					   cout);		 // IN - output variable
+
+
+	while (choice != 0)
+	{
+
+
+	DisplayMenu();
+	CheckInp(choice);
+
+	switch(choice)
+	{
+	case '1' : cout << "Who would you like to add?\n"
+				  << setw(PROMPT_W) << "Enter name: ";
+		     getline(cin,name);
+
+			 cout << setw(PROMPT_W) << "Enter gender: ";
+			 cin.get(gender);
+			 cin.ignore(1000,'\n');
+
+			 cout << setw(PROMPT_W) << "Enter age: ";
+			 cin  >> age;
+
+			head = Push(head, name, gender, age);
+	break;
+
+	case 2 : Pop(head);
+	break;
+
+	case 3 : IsEmpty(head);
+	break;
+
+	case 4 : Peek(head);
+	break;
+
+	case 5 : Size(head);
+	break;
+
+	case 6 : DisplayStack(head);
+	break;
+
+	}
+
+	cout << endl;
+
+	}
+
+
+
+
+
+
+
+	return 0;
+}

@@ -1,0 +1,9 @@
+18:49:16 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+
+18:49:18 Build Finished (took 1s.591ms)
+

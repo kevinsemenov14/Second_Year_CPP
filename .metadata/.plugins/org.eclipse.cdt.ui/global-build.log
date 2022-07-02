@@ -1,0 +1,132 @@
+18:16:20 **** Rebuild of configuration Debug for project Assigenment 3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o SwitchToken.o "..\\SwitchToken.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Outputinstruct.o "..\\Outputinstruct.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o InitBoard.o "..\\InitBoard.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o GetAndCheckInput.o "..\\GetAndCheckInput.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o printheader.o "..\\printheader.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckWin.o "..\\CheckWin.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayBoard.o "..\\DisplayBoard.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o GetPlayers.o "..\\GetPlayers.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputWinner.o "..\\OutputWinner.cpp" 
+g++ -o "Assigenment 3.exe" printheader.o main.o SwitchToken.o Outputinstruct.o OutputWinner.o InitBoard.o GetPlayers.o GetAndCheckInput.o DisplayBoard.o CheckWin.o 
+18:16:44 **** Rebuild of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayMenu.o "..\\DisplayMenu.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Pop.o "..\\Pop.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function `int main()':
+..\main.cpp:56: warning: unused variable 'PROMPT_W'
+..\main.cpp:57: warning: unused variable 'OUT_W'
+..\main.cpp:61: warning: unused variable 'head'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Size.o "..\\Size.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o PrintHeaderOstream.o "..\\PrintHeaderOstream.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Push.o "..\\Push.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o IsEmpty.o "..\\IsEmpty.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Peek.o "..\\Peek.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayMenu.o CheckInp.o 
+18:38:32 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o IsEmpty.o "..\\IsEmpty.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Push.o "..\\Push.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Size.o "..\\Size.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Peek.o "..\\Peek.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o PrintHeaderOstream.o "..\\PrintHeaderOstream.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Pop.o "..\\Pop.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayMenu.o "..\\DisplayMenu.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayStack.o "..\\DisplayStack.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+Info: Nothing to build for Lab 11 Stacks on Stacks
+18:39:59 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:40:08 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:40:15 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:41:10 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:41:20 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+Info: Nothing to build for Lab 11 Stacks on Stacks
+18:42:50 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:42:57 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:43:05 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:43:52 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:44:41 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:45:01 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:45:09 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+Info: Nothing to build for Lab 11 Stacks on Stacks
+18:45:40 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckInp.o "..\\CheckInp.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:45:49 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:46:24 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DisplayStack.o "..\\DisplayStack.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:46:31 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:48:06 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status
+18:48:18 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+18:49:16 **** Incremental Build of configuration Debug for project Lab 11 Stacks on Stacks ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o "Lab 11 Stacks on Stacks.exe" main.o Size.o Push.o PrintHeaderOstream.o Pop.o Peek.o IsEmpty.o DisplayStack.o DisplayMenu.o CheckInp.o 
+C:\MinGW\bin\..\lib\gcc\mingw32\3.4.2\..\..\..\..\mingw32\bin\ld.exe: cannot open output file Lab 11 Stacks on Stacks.exe: Permission denied
+collect2: ld returned 1 exit status

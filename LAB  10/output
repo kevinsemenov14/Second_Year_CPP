@@ -1,0 +1,22 @@
+*****************************************************
+*  PROGRAMMED BY : Demon
+*  CLASS         : CS1B
+*  SECTION       : TTH: 8am
+*  ASSIGNMENT #10: Intro to ponters
+*****************************************************
+
+Input the first value (enter -999 to exit)? 5
+Input the second value? 25
+
+
+The sum is:     30
+The Product is: 125
+
+Input the first value (enter -999 to exit)? -12
+Input the second value? 100
+
+
+The sum is:     88
+The Product is: -1200
+
+Input the first value (enter -999 to exit)? -999

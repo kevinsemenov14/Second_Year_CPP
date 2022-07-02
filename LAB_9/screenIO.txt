@@ -1,0 +1,60 @@
+*****************************************************
+*  PROGRAMMED BY  : BEAK & Demon
+*  CLASS          : CS1B
+*  SECTION        : TTh: 0800 - 1150
+*  LAB #9         : Testing
+*****************************************************
+
+Please input the number of sheep: 100
+Please input the number of Chocolate Bars: 10
+There are not enough bars for every sheep to get one!
+Sharing is caring, you will have 10 bars left
+
+Please input the number of sheep: 10
+Please input the number of Chocolate Bars: 100
+Each sheep gets 4 bars!
+You will have 60 bars left over.
+
+Please input the number of sheep: 4
+Please input the number of Chocolate Bars: 12
+Each sheep gets 3 bars!
+You will have 0 bars left over.
+
+Please input the number of sheep: w
+*** Please input a positive integer! *** 
+Please input the number of sheep: -5
+*** Please input a positive integer! *** 
+Please input the number of sheep: -1
+*** Please input a positive integer! *** 
+Please input the number of sheep: 0
+Please input the number of Chocolate Bars: 12
+*** CRASH! *** <-- divide by 0, added a minimum sheep constant
+
+Please input the number of sheep: 0
+*** Please input a positive integer! *** 
+Please input the number of sheep: 1
+Please input the number of Chocolate Bars: 12
+Each sheep gets 4 bars!
+You will have 8 bars left over.
+
+Please input the number of sheep: 1
+Please input the number of Chocolate Bars: 20
+Each sheep gets 4 bars!
+You will have 16 bars left over.
+
+Please input the number of sheep: 10
+Please input the number of Chocolate Bars: -1
+*** Please input a positive integer! *** 
+Please input the number of Chocolate Bars: 0
+There are not enough bars for every sheep to get one!
+Sharing is caring, you will have 0 bars left
+
+Please input the number of sheep: 12
+Please input the number of Chocolate Bars: 0
+There are not enough bars for every sheep to get one!
+Sharing is caring, you will have 0 bars left
+
+Please input the number of sheep: 20
+Please input the number of Chocolate Bars: 1
+There are not enough bars for every sheep to get one!
+Sharing is caring, you will have 1 bars left

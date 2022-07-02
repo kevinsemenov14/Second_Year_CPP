@@ -1,0 +1,32 @@
+*****************************************************
+*  PROGRAMMED BY : Demon
+*  CLASS         : CS1A
+*  SECTION       : MW: 8:00p - 12:20p
+*  ASSIGNMENT #10: Functions
+*****************************************************
+
+What input file would you like to use?  InFile.txt
+What output file would you like to use? OFile.txt
+
+who do you want to search for (enter done to exit) : Steve Woolston
+found.
+
+who do you want to search for (enter done to exit) : Jacques Rousseau
+Jacques Rousseau was not found.
+
+who do you want to search for (enter done to exit) : Chris Carroll
+found.
+
+who do you want to search for (enter done to exit) : Pete McBride
+found.
+
+who do you want to search for (enter done to exit) : Jean Rousseau
+found.
+
+who do you want to search for (enter done to exit) : Florence Cyr
+Florence Cyr was not found.
+
+who do you want to search for (enter done to exit) : done
+
+
+Thank you for using my program.

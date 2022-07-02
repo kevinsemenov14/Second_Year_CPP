@@ -1,0 +1,30 @@
+/***********************************************************************
+ * AUTHOR		 : Deboogaloo & demon
+ * LAB # 10		 : Stacks
+ * CLASS		 : CS1B
+ * SECTION		 : TTH - 8am
+ * DUE DATE		 : 3-17-15
+ ***********************************************************************/
+
+#include "header.h"
+
+
+void Size(personNode *head)
+{
+	personNode *perPtr;
+	int count;
+	perPtr = head;
+
+
+	while(perPtr != NULL)
+	{
+		count++;
+		perPtr = perPtr -> next;
+	}
+
+
+	if(head == NULL)
+	{
+		cout << "Nobody is on the stack!\n";
+	}
+}
